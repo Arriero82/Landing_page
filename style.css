@@ -17,7 +17,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 300px;
+    padding: 20px 200px;
     align-items: center;
 }
 
@@ -52,7 +52,7 @@ h1{
 
 .hero{
     display: flex;
-    padding: 20px 300px;
+    padding: 20px 200px;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -155,7 +155,10 @@ h1{
 
 /*BANNER CONTAINER*/
 
+.bannerContainer{
+    padding: 80px 200px;
 
+}
 
 .signUp,
 .signUp2{
@@ -163,12 +166,40 @@ h1{
     font-weight: bold;
     color: #E5E7EB;
     border-radius: 8px;
-    max-width: fit-content;
-    padding: 8px 36px;
+    width: 125px;
+    height: auto;
+    padding: 8px 24px;
 }
 
 .banner{
     background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 40px 100px;
+    color: #F9FAF8;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+.banner>div>p{
+    margin: 0;
+    padding: 0;
+}
+
+.signUp2{
+    border: solid #F9FAF8;
+}
+
+/*FOOTER*/
+
+.footer{
+    text-align: center;
+    color: #F9FAF8;
 }
   
 
